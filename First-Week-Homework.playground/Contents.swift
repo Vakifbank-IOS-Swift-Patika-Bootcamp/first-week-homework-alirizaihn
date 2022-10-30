@@ -1,5 +1,5 @@
 import Foundation
-
+//================== 1. Question =================
 func checkPalindrome(word:String){
     let wordLength = word.count
     let lowerCaseWord = word.lowercased()
@@ -16,3 +16,15 @@ func checkPalindrome(word:String){
     }
 }
 checkPalindrome(word: "Veliilev")
+
+//================== 2. Question =================
+
+func calculateItemCount(items: [String]){
+    var countOfItems: [String:Int] = [:]
+    for item in items{
+        countOfItems[item] = (countOfItems[item] ?? 0) + 1
+    }
+    print(countOfItems)
+}
+calculateItemCount(items: ["1","b","g","1","b","g","v","s"])
+
