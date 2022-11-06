@@ -86,7 +86,7 @@ func findLargestPrimeFactor(numberExample: Int) {
             break
         }
     }
-    print("Largest prime factor is \(resultNumber)")
+    print(resultNumber)
 }
 //Qestion 1 =>
 checkPalindrome(word: "İmrensem adama madam esner mİ?")
