@@ -1,5 +1,8 @@
 import Foundation
 
+// XCode Version => 13.4.1
+// Swift Version => 5.6.1
+
 //================== 1. Question =================
 
 func checkPalindrome(word: String) {
